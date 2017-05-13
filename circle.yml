@@ -17,6 +17,10 @@ test:
           2) ./tests/shell_test.sh;;
           3) ./tests/shell_test.sh;;
           4) ./tests/shell_test.sh;;
+          5) ./tests/shell_test.sh;;
+          6) ./tests/shell_test.sh;;
+          7) ./tests/shell_test.sh;;
+          8) ./tests/shell_test.sh;;
         esac
       :
         parallel: true
