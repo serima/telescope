@@ -6,6 +6,7 @@ dependencies:
     - ~/.composer/cache
   pre:
     - composer install --prefer-dist --no-interaction
+    - php artisan key:generate
 test:
   override:
     - vendor/bin/phpunit
