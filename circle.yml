@@ -6,6 +6,7 @@ dependencies:
     - ~/.composer/cache
   pre:
     - composer install --prefer-dist --no-interaction
+    - php -r "file_exists('.env') || copy('.env.example', '.env');"
     - php artisan key:generate
 test:
   override:
