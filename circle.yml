@@ -10,5 +10,5 @@ dependencies:
     - php artisan key:generate
 test:
   override:
-    - vendor/bin/phpunit
-    - ./tests/shell_test.sh
+    - ./run_test.sh:
+        parallel: true
