@@ -21,6 +21,7 @@ test:
           6) ./tests/shell_test.sh;;
           7) ./tests/shell_test.sh;;
           8) ./tests/shell_test.sh;;
+          9) echo $CIRCLE_NODE_TOTAL;;
         esac
       :
         parallel: true
