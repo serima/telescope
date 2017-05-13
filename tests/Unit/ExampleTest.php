@@ -15,6 +15,7 @@ class ExampleTest extends TestCase
      */
     public function testBasicTest()
     {
+		sleep(10);
         $this->assertTrue(true);
     }
 }
